@@ -1,0 +1,5 @@
+total 12
+-rw-rw-r-- 1 ujjval ujjval 29 Oct 22 22:22 2.1
+-rwxrwxr-x 1 ujjval ujjval 29 Oct 22 22:22 21.sh
+-rwxrwxr-x 1 ujjval ujjval 50 Oct 22 22:23 22.sh
+-rw-rw-r-- 1 ujjval ujjval  0 Oct 22 22:25 ls-l.txt
