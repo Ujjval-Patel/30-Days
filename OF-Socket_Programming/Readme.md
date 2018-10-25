@@ -22,3 +22,15 @@ Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial
     - "Stream" Sockets for TCP
     - "Datagram" Sockets foro UDP
 
+###Wonder how they Look ?
+![screenshot from 2018-10-25 21-01-10](https://user-images.githubusercontent.com/30762887/47512226-5e63e100-d899-11e8-8bd5-4b08ec3fdb09.png)
+
+## Server
+
+    -> Passively waits for clints and responds to them 
+    -> ### Passive Socket
+## Client
+    -> initiates the communication
+    -> must know the address and the port of the server
+    -> ### active socket
+    
