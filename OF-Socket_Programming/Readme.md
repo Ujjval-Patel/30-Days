@@ -6,7 +6,7 @@ Learning `Awesome Socket Programming`in C (mainly but you might also find Python
 
 ## Basic Theory
 
-Reading from ![this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf) link
+Reading from [this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf) link
 
     => Original Name - Berkley Sockets
     => Provide generic access to interprocess communication services
@@ -45,7 +45,7 @@ Most Commnly used functions
 
 ![screenshot from 2018-10-25 21-19-15](https://user-images.githubusercontent.com/30762887/47513387-c4516800-d89b-11e8-827f-32e354e4884a.png)
 
-Socket Creation
+### Socket Creation
 `int sockid = socket(family, type, protocol);`
 
     family
@@ -59,7 +59,12 @@ Socket Creation
         `IPPROTO_UDP`
     On Faliure it returns `-1`
     NOTE, this just creats interface, Nothingelse!
-
+### Socket Closing
+ `status = close(sockid);`
+ 
+        `sockid`  => The the file descriptor
+        `status`  => `0` if successful; -1 if error
+    
 
 
 
