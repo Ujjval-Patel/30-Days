@@ -1,9 +1,8 @@
-Learning Awesome Socket Programming in C (mainly but you might also find Python implementations).
+Learning `Awesome Socket Programming`in C (mainly but you might also find Python implementations).
 
-# 20th OF October time => 20:20
+# Socket_Programming
 
-### Get 
-## Set
+### Get, Set
 # GO!!
 
 ## Basic Theory
@@ -50,16 +49,17 @@ Most Commnly used functions
 Socket Creation
 `int sockid = socket(family, type, protocol);`
 
-family
-    `PF_INET` => used for IPv4 protocols, Internet addresses 
-    `PF_UNIX` => Local Communication, File Address
-type
-    `SOCK_STREAM` => Usually used for TCP,(reliable, 2-way, connection-based service)
-    `SOCK_DGRAM`  => Usually used for UDP,(unreliable, connectionless, messages of maximum length)
-Protocol
-    `IPPROTO_TCP`
-    `IPPROTO_UDP`
-On Faliure it returns `-1`
+    family
+        `PF_INET`   => used for IPv4 protocols, Internet addresses 
+        `PF_UNIX`   => Local Communication, File Address
+    type
+        `SOCK_STREAM`   => Usually used for TCP,(reliable, 2-way, connection-based service)
+        `SOCK_DGRAM`    => Usually used for UDP,(unreliable, connectionless, messages of maximum length)
+    Protocol
+        `IPPROTO_TCP`
+        `IPPROTO_UDP`
+    On Faliure it returns `-1`
+    NOTE, this just creats interface, Nothingelse!
 
 
 
