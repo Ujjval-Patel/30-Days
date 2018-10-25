@@ -1,6 +1,6 @@
 Learning Awesome Socket Programming in C (mainly but you might also find Python implementations).
 
-# @% th OF October time => @):@)
+# 20 th OF October time => 20:20
 
 Get, Set, 
 # GO!!
@@ -25,12 +25,22 @@ Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial
 ###Wonder how they Look ?
 ![screenshot from 2018-10-25 21-01-10](https://user-images.githubusercontent.com/30762887/47512226-5e63e100-d899-11e8-8bd5-4b08ec3fdb09.png)
 
-## Server
+### Server
 
     -> Passively waits for clints and responds to them 
-    -> ### Passive Socket
-## Client
+    -> "Passive" Socket
+### Client
     -> initiates the communication
     -> must know the address and the port of the server
-    -> ### active socket
+    -> "active" socket
     
+Most Commnly used functions
+Socket          - Create new Communication endpoint
+Bind            - Attaches local address to socket
+Listen          - Announce willingness to accept connections
+Accept          - Block caller untill connection request arrives
+Connect         - Actively attempts to establish a connection
+Send            - Send some data over the connectin
+Recieve         - Recieve some data over the connectin
+Close           - Release the Connection
+
