@@ -1,9 +1,9 @@
 Learning Awesome Socket Programming in C (mainly but you might also find Python implementations).
 
-# 20 th OF October time => 20:20
+# 20th OF October time => 20:20
 
 ### Get 
-## Set, 
+## Set
 # GO!!
 
 ## Hour 1
@@ -23,7 +23,7 @@ Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial
     - "Stream" Sockets for TCP
     - "Datagram" Sockets foro UDP
 
-###Wonder how they Look ?
+### Wonder how they Look ?
 ![screenshot from 2018-10-25 21-01-10](https://user-images.githubusercontent.com/30762887/47512226-5e63e100-d899-11e8-8bd5-4b08ec3fdb09.png)
 
 ### Server
@@ -45,4 +45,8 @@ Most Commnly used functions
     Send            - Send some data over the connectin
     Recieve         - Recieve some data over the connectin
     Close           - Release the Connection
+
+![screenshot from 2018-10-25 21-19-15](https://user-images.githubusercontent.com/30762887/47513387-c4516800-d89b-11e8-827f-32e354e4884a.png)
+
+
 
