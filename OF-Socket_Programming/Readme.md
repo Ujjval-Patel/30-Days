@@ -6,8 +6,7 @@ Learning Awesome Socket Programming in C (mainly but you might also find Python 
 ## Set
 # GO!!
 
-## Hour 1
-Basic Theory
+## Basic Theory
 
 Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf
 
@@ -47,6 +46,21 @@ Most Commnly used functions
     Close           - Release the Connection
 
 ![screenshot from 2018-10-25 21-19-15](https://user-images.githubusercontent.com/30762887/47513387-c4516800-d89b-11e8-827f-32e354e4884a.png)
+
+Socket Creation
+`int sockid = socket(family, type, protocol);`
+
+family
+    `PF_INET` => used for IPv4 protocols, Internet addresses 
+    `PF_UNIX` => Local Communication, File Address
+type
+    `SOCK_STREAM` => Usually used for TCP,(reliable, 2-way, connection-based service)
+    `SOCK_DGRAM`  => Usually used for UDP,(unreliable, connectionless, messages of maximum length)
+Protocol
+    `IPPROTO_TCP`
+    `IPPROTO_UDP`
+On Faliure it returns `-1`
+
 
 
 
