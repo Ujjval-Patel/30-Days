@@ -2,7 +2,8 @@ Learning Awesome Socket Programming in C (mainly but you might also find Python 
 
 # 20 th OF October time => 20:20
 
-Get, Set, 
+### Get 
+## Set, 
 # GO!!
 
 ## Hour 1
@@ -35,12 +36,13 @@ Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial
     -> "active" socket
     
 Most Commnly used functions
-Socket          - Create new Communication endpoint
-Bind            - Attaches local address to socket
-Listen          - Announce willingness to accept connections
-Accept          - Block caller untill connection request arrives
-Connect         - Actively attempts to establish a connection
-Send            - Send some data over the connectin
-Recieve         - Recieve some data over the connectin
-Close           - Release the Connection
+
+    Socket          - Create new Communication endpoint
+    Bind            - Attaches local address to socket
+    Listen          - Announce willingness to accept connections
+    Accept          - Block caller untill connection request arrives
+    Connect         - Actively attempts to establish a connection
+    Send            - Send some data over the connectin
+    Recieve         - Recieve some data over the connectin
+    Close           - Release the Connection
 
