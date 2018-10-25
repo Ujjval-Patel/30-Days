@@ -64,8 +64,88 @@ Reading from [this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-t
  
         `sockid`  => The file descriptor
         `status`  => `0` if successful; -1 if error
-    NOTE, This free up the port used by the socket
+        NOTE, This free up the port used by the socket
+        
+ ### Specifying Address
+   ```
+   struct sockaddr {
+        unsigned short sa_family; /* Address family (e.g. AF_INET) */
+        char sa_data[14]; /* Family-specific address information */
+        }
+   ```
+  Particularly for TCP/IP
     
+```
+    struct in_addr {
+        unsigned long s_addr; /* Internet address (32 bits) */
+    }
+    struct sockaddr_in {
+        unsigned short sin_family; /* Internet protocol (AF_INET) */
+        unsigned short sin_port; /* Address port (16 bits) */
+        struct in_addr sin_addr; /* Internet address (32 bits) */
+        char sin_zero[8]; /* Not used */
+    }
+```
 
+### Bind
+`int status = bind(sockid, &addrport, size);`
 
+    Associates and reserves a port for use by the socket
+    
+    addrport
+         => The (IP) address and port number of the machine
+         => For TCP/IP server, internet address is usually set to INADDR_ANY, i.e., chooses any incoming interface
+    size
+        The size of addrport
+    status
+        On faliure -1 is returned
+```
+int sockid;
+struct sockaddr_in addrport;
+sockid = socket(PF_INET, SOCK_STREAM, 0);
 
+addrport.sin_family = AF_INET;
+addrport.sin_port = htons(5100);
+addrport.sin_addr.s_addr = htonl(INADDR_ANY);
+if(bind(sockid, (struct sockaddr *) &addrport, sizeof(addrport))!= -1) {
+    …}
+```
+    Note, Bind can be skipped for both types of sockets
+
+### Listen
+`int status = listen(sockid, queueLimit);`
+
+    Instructs TCP protocol implementation to listen for connections
+    
+    `queuelen` 
+        integer, # of active participants that can “wait” for a connection
+    `status`    
+        0 if listening, -1 if error
+        NOTE, `listen()` is non-blocking: returns immediately
+        
+### Connect
+`int status = connect(sockid, &foreignAddr, addrlen);`
+
+    The client establishes a connection with the server by calling `connect()`
+    
+    `foreignAddr`
+        struct sockaddr: address of the passive participant
+    `addrlen` 
+        integer, sizeof(name)
+    status
+        0 if succesful, -1 otherwise
+    Note, `connect()` is blocking
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
