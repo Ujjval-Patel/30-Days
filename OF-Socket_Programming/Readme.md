@@ -121,7 +121,8 @@ if(bind(sockid, (struct sockaddr *) &addrport, sizeof(addrport))!= -1) {
         integer, # of active participants that can “wait” for a connection
     `status`    
         0 if listening, -1 if error
-        NOTE, `listen()` is non-blocking: returns immediately
+            
+    NOTE, `listen()` is non-blocking: returns immediately
         
 ### Connect
 `int status = connect(sockid, &foreignAddr, addrlen);`
@@ -136,11 +137,17 @@ if(bind(sockid, (struct sockaddr *) &addrport, sizeof(addrport))!= -1) {
         0 if succesful, -1 otherwise
     Note, `connect()` is blocking
     
+### Accept
+`int s = accept(sockid, &clientAddr, &addrLen);
+
+    `s`             => Integer, the new socket(used for data-transfer)
+    `clientAddr`    => struct sockaddr, address of the active participant
+                       NOTE, filled in upon return
+    `addrLen`       => sizeof(clientAddr)
+     NOTE, Accept is blocking     
     
     
-    
-    
-    
+
     
     
     
