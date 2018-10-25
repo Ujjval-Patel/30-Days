@@ -2,16 +2,15 @@ Learning `Awesome Socket Programming`in C (mainly but you might also find Python
 
 # Socket_Programming
 
-### Get, Set
-# GO!!
+### Get, Set, GO!!
 
 ## Basic Theory
 
-Reading from https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf
+Reading from ![this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf) link
 
-=> Original Name - Berkley Sockets
-=> Provide generic access to interprocess communication services
-=> Uniquely Identified by -  internet address + an end-to-end protocol + a port number
+    => Original Name - Berkley Sockets
+    => Provide generic access to interprocess communication services
+    => Uniquely Identified by -  internet address + an end-to-end protocol + a port number
     
    
 ![s](https://user-images.githubusercontent.com/30762887/47511901-bcdc8f80-d898-11e8-97d9-d0d664db6a04.png)
