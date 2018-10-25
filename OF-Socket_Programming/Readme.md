@@ -16,7 +16,7 @@ Reading from [this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-t
 ![s](https://user-images.githubusercontent.com/30762887/47511901-bcdc8f80-d898-11e8-97d9-d0d664db6a04.png)
 
 
-=> 2 Types
+    => 2 Types
     - "Stream" Sockets for TCP
     - "Datagram" Sockets foro UDP
 
@@ -32,7 +32,7 @@ Reading from [this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-t
     -> must know the address and the port of the server
     -> "active" socket
     
-Most Commnly used functions
+### Most Commnly used functions
 
     Socket          - Create new Communication endpoint
     Bind            - Attaches local address to socket
