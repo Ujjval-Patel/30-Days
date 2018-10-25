@@ -138,7 +138,7 @@ if(bind(sockid, (struct sockaddr *) &addrport, sizeof(addrport))!= -1) {
     Note, `connect()` is blocking
     
 ### Accept
-`int s = accept(sockid, &clientAddr, &addrLen);
+`int s = accept(sockid, &clientAddr, &addrLen);`
 
     `s`             => Integer, the new socket(used for data-transfer)
     `clientAddr`    => struct sockaddr, address of the active participant
@@ -147,7 +147,23 @@ if(bind(sockid, (struct sockaddr *) &addrport, sizeof(addrport))!= -1) {
      NOTE, Accept is blocking     
     
     
+### Exchanging data with stream socket
+`int count = send(sockid, msg, msgLen, flags);`
 
+        `msg`    => const void[], message to be transmitted
+        `flags`  => integer, special options, usually just 0
+        `count`  => # bytes transmitted (-1 if error)
+        
+`int count = recv(sockid, recvBuf, bufLen, flags);`
+
+        `recvBuf` => void[], stores received bytes
+        
+        NOTE, Calls are Blocking it returns only after data is sent/received
+        
+### Exchanging data with datagram socket
+`int count = sendto(sockid, msg, msgLen, flags, &foreignAddr, addrlen);`
+
+`int count = recvfrom(sockid, recvBuf, bufLen, flags, &clientAddr, addrlen);`
     
     
     
