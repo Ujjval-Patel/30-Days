@@ -62,8 +62,9 @@ Reading from [this](https://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-t
 ### Socket Closing
  `status = close(sockid);`
  
-        `sockid`  => The the file descriptor
+        `sockid`  => The file descriptor
         `status`  => `0` if successful; -1 if error
+    NOTE, This free up the port used by the socket
     
 
 
