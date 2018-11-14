@@ -1,6 +1,6 @@
 https://github.com/yomeshgupta/multi-variable-linear-regression/blob/master/lr-multi.py
 
-https://github.com/binga/AnalyticsVidhya_BlackFriday/blob/master/finalmodel.py
+`done` https://github.com/binga/AnalyticsVidhya_BlackFriday/blob/master/finalmodel.py
 
 https://discuss.analyticsvidhya.com/t/black-friday-data-hack-reveal-your-approach/5986/12
 
