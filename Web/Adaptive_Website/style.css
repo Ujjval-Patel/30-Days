@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');/*--- Paragraph Font --*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); /*--- Headings Font --*/
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
