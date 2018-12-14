@@ -11,6 +11,13 @@
 	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
   	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+	
+	<script src="js/waypoints.js" type="text/javascript"></script>
+
 </head>
 <body>
 	<header>
@@ -66,9 +73,16 @@
 				controls:false,
 			});
 		</script>
+		<!---End Slider-->
 		
 		<div class="clearfix"></div>
 		<div id="inner-wrapper">
+
+		<!--- Start Waypoints Delayed Animation --->	
+ 
+		<section class="staggered-animation-container">
+		<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">	
+			
 			<section class="one-third">
 				<div class="circle">
 					<td><i class="fa fa-users"></i></td>
@@ -78,8 +92,11 @@
 				   the tri-state area as seek out recruit talented trainers 
 				   with all the right certifications. Come in today and 
 				   have a sit down with one of our trainers so we can 
-				   help you meet your goals in the fastest way possible</p>
+				   help you meet your goals in the fastest way possible!</p>
 			</section>
+		</section>
+		<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s">	
+			
 			<section class="one-third">
 					<div class="circle">
 						<td><i class="fa fa-map-marker"></i></td>
@@ -91,6 +108,9 @@
 						clients to get their workouts in before 
 						or after work even on a short lunch break </p>
 			</section>
+		</section>
+		<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">	
+			
 			<section class="one-third">
 					<div class="circle">
 						<td><i class="fa fa-check-square-o"></i></td>
@@ -103,11 +123,17 @@
 						decide whether or not they'd like to join. 
 						Call or come in today for your free pass!</p>
 			</section>
-
+		</section>
 <div class="clearfix"></div>
+
+<section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".5s">	
+			
 		<article>
 			<img src="https://www.w3newbie.com/wp-content/uploads/gym-classes.png" class="circle-image">
 		</article>
+	</section>
+	<section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".3s">	
+			
 		<aside>
 			<h3>Our Facility</h3>
 			<br>
@@ -118,9 +144,11 @@
 				<li><h4>cardio machine movie theater</h4></li>
 			</ul>
 		</aside>
+	</section>
 
 <div class="clearfix"></div>
-
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".7s">	
+			
 		<section class="one-third">
 			<h3>Ladies Section</h3>
 			<img src="https://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg">
@@ -128,6 +156,9 @@
 				section of the gym where women can workout 
 				to themsleves. </p>
 		</section>
+	</section>
+	<section class="os-animation" data-os-animation="zoomIn" data-os-animation-delay=".7s">	
+			
 		<section class="one-third">
 				<h3>The Gym Floor</h3>
 				<img src="https://www.w3newbie.com/wp-content/uploads/gym-floor.jpg">
@@ -135,13 +166,9 @@
 					Enjoy scenic views from the cardio equipment 
 					on the third floor </p>
 		</section>
-		<section class="one-third">
-				<h3>The Gym Floor</h3>
-				<img src="https://www.w3newbie.com/wp-content/uploads/gym-floor.jpg">
-				<p> Our gym floor are spacious as they come. 
-					Enjoy scenic views from the cardio equipment 
-					on the third floor </p>
-		</section>
+	</section>
+	<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".7s">	
+			
 		<section class="one-third">
 				<h3>Free weights</h3>
 				<img src="https://www.w3newbie.com/wp-content/uploads/free-weights.jpg">
@@ -150,12 +177,14 @@
 					 dumbbles and Olympic plates 
 					 for body building</p>
 		</section>
+	</section>
 
 	</div> <!--- End Inner Wrapper-->
 
 <div class="clearfix"></div>
 <!-- FOOTER START-->
-
+<section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay="0.8s">	
+			
 		<footer>
 			<div id="footer-inner">
 				<section class="one-third" id="footer-third">
@@ -190,15 +219,16 @@
 							<a href="#">About</a> - 
 							<a href="#">facility</a> - 
 							<a href="#">Pricing</a> - 
-							<a href="#">contact</a> - 							
+							<a href="#">contact</a> 							
 						</h5>
 				</section>
 			</div>
 		</footer>
-		<footer calss="second">
+		<footer class="second">
 			<p>&copy; The Gym, 2018.</p>
 		</footer>
-
+	</section>
+	</section>
 		
 </body> 
 </html>
