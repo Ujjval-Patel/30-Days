@@ -9,4 +9,5 @@ I will be uploading the javascript codes very shortly
 
 - [x] Shell (basic)
 
-
+- [x] Build 1 website
+- [ ] Build 3 Website
