@@ -1,6 +1,8 @@
-# 30-Days
+# 30-Days (starting 1st Feburary)
 This is the place where I shall put most of the stuffs I learned in my 30 days Challenge.
+- [ ]
 
+### Archived
 - [x] Socket-programming |
 I have uploaded tutorial kind of material in Sokcet-Programming folder.
 
