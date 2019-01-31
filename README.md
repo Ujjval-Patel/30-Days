@@ -1,6 +1,6 @@
 # 30-Days (starting 1st Feburary)
 This is the place where I shall put most of the stuffs I learned in my 30 days Challenge.
-- [ ]
+- [ ] Goals yet to be decided
 
 ### Archived
 - [x] Socket-programming |
