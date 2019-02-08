@@ -10,3 +10,8 @@
 </br>nutritional reqs, meal to contain 450 to 700 cals and 12-20 gms of protin and for malnurished 800 cals and 20-25 gms of protein. and for pregnant and lactating mothers 600 cals and 18-20 gms of protein.
 
 </br> state gov responsibel to find eleigable families under TPDS and AAY scheme.
+
+
+---
+
+Meeting went well.
