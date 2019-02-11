@@ -34,6 +34,7 @@ Meeting went well.
 7. **Continuance of Antyodaya Anna Yojana (AAY)** – Protection to 2.43 crore poorest of poor families under the Antodaya Anna Yojana (AAY) to supply of 35 kg foodgrains per month per family would continue.
 
 8. **Right to food to become a legal right**– The proposed bill aims to provide legal right over subsidised foodgrain to 67 per cent of the population.
+9. Inflation is on the rise, this is the time poor people need food security.
 
 
 
