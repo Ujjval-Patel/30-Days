@@ -29,6 +29,8 @@ Positive points
 
 5. The successes of conditional transfers such as Bolsa Famila in Brazil and Progressa in Mexico are well known. Recent research from Africa have also shown positive impacts of unconditional transfers in terms of reducing hunger, increasing livestock holdings and investment in new trades (Blattman, Fiala and Martinez 2013, Haushofer and Shapiro 2013).
 
-6. 
+6. **Bill seeks to utilize already existing infrastructures like PDS and aganwadi’s**. This has prevented further wastage of money to develop the infrastructures.
 
+7. **Continuance of Antyodaya Anna Yojana (AAY)** – Protection to 2.43 crore poorest of poor families under the Antodaya Anna Yojana (AAY) to supply of 35 kg foodgrains per month per family would continue.
 
+8. **Right to food to become a legal right**– The proposed bill aims to provide legal right over subsidised foodgrain to 67 per cent of the population.
