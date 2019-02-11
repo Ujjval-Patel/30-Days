@@ -21,9 +21,8 @@
 
 
 --- 
-## Suggestions
+## Suggestions: 
 
-SUGGESTIONS:
 
 1. We should have learned lessons from the Mahatma Gandhi National Rural Employment Guarantee Act (which provides 100 days of work to the poor at 100 rupees a day) and strengthened it to make it more effective to help the very poorest. Those who are part of that program should be targeted for this subsidy.
 2. Or we could link it to education as they did in Bangladesh where school children and their families were given access to subsidized food.
