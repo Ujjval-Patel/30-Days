@@ -25,7 +25,7 @@ Positive points
 
 3. States will have to fully computerise their PDS within two years of the law and they “shall provide a toll-free number and a website where consumers can register their complaints. All complaints shall be addressed within 39 days of receipt and records of the same shall be made available in the public domain, including the Internet,” 
 
-4.For the first time, the onus of identification and, more crucially, delivery of grain to consumers could be pinned on panchayats in rural areas and local governments in urban areas, entailing never-before accountability on records of allocation and off-take of grain.
+4. For the first time, the onus of identification and, more crucially, delivery of grain to consumers could be pinned on panchayats in rural areas and local governments in urban areas, entailing never-before accountability on records of allocation and off-take of grain.
 
 5. The successes of conditional transfers such as Bolsa Famila in Brazil and Progressa in Mexico are well known. Recent research from Africa have also shown positive impacts of unconditional transfers in terms of reducing hunger, increasing livestock holdings and investment in new trades (Blattman, Fiala and Martinez 2013, Haushofer and Shapiro 2013).
 
