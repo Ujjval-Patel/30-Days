@@ -50,3 +50,7 @@ SUGGESTIONS:
 4. We need to reduce the leakages from the distribution system and make it transparent. This bill has transparency provisions but do not provide how this transparency shall be achieved.
 5. Community based agricultural programs and teaching about sustainable farming shall enhance production in the country. And this in turn would bring down the prices of various essential commodities and people can be self sufficient themselves. Relieance on government programs would reduce and this would give people a feeling of security and not fear of dependence.
 6. For reducing loopholes in PDS system government must take lessons from Chattisgarh government where after the delivery is made to PDS branch, all the beneficiaries get a message though mobiles about the same, so they know about it and reach to PDS branch on time.
+
+# Next class Debate.
+
+### Reality in petrol prices.
