@@ -15,3 +15,20 @@
 ---
 
 Meeting went well.
+
+---
+
+Positive points
+1. About 2.25 crore pregnant women and lactating mothers are expected to benefit from the legislation that proposes to give Rs. 1,000 per month for six months as maternity benefit. 
+
+2.  Aiming to empower women, the Bill also proposes that the ration card will be issued to the eldest female member of the family. The proposed Bill also holds great promises for children. Children in the lower and upper primary classes would be entitled to mid-day meals as per the prescribed nutritional norms.
+
+3. States will have to fully computerise their PDS within two years of the law and they “shall provide a toll-free number and a website where consumers can register their complaints. All complaints shall be addressed within 39 days of receipt and records of the same shall be made available in the public domain, including the Internet,” 
+
+4.For the first time, the onus of identification and, more crucially, delivery of grain to consumers could be pinned on panchayats in rural areas and local governments in urban areas, entailing never-before accountability on records of allocation and off-take of grain.
+
+5. The successes of conditional transfers such as Bolsa Famila in Brazil and Progressa in Mexico are well known. Recent research from Africa have also shown positive impacts of unconditional transfers in terms of reducing hunger, increasing livestock holdings and investment in new trades (Blattman, Fiala and Martinez 2013, Haushofer and Shapiro 2013).
+
+6. 
+
+
